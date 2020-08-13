@@ -173,7 +173,7 @@
                             ]
                         },
                         "protectedSettings": {
-                            "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File ', './devbox.ps1')]"
+                            "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File ', './post-deploy.ps1')]"
                         }
                     }
                 }
