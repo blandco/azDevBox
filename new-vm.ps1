@@ -6,8 +6,8 @@ $resourceGroupName = "Rg-"+$lowerhostName
 $SecurePassword = Read-Host -Prompt "Enter password" -AsSecureString 
 $StandardPassword = ConvertFrom-SecureString $SecurePassword -AsPlainText
 $vmAdminUser = "azadmin"
-$scriptURL = "https://gist.githubusercontent.com/blandco/f49450e545ea3acc1d0cf2bfc1e38162/raw/81e20f5a7308f8fd12995540de7e26004084dd80/devbox.ps1"
-$templateURL = "https://gist.githubusercontent.com/blandco/c652afac6297e96501c76253a9d16506/raw/12ad97ceb5e34f6bf0ca800e49c43bf6d0b99d54/devbox-ARMTemplate.json"
+$scriptURL = "https://raw.githubusercontent.com/blandco/azDevBox/master/post-deploy.ps1"
+$templateURL = "https://raw.githubusercontent.com/blandco/azDevBox/master/devbox-ARMTemplate.json"
 $AzureLocation = "centralus"
 
 # Login to Azure
