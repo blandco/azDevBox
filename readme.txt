@@ -1,0 +1,1 @@
+This Powershell script deploys a virtual machine to Azure using an Azure Resource Manager template.
