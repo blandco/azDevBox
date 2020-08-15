@@ -16,4 +16,5 @@ Powershell script to deploy and configure a virtual machine using an Azure Resou
 
 ### References
 + [Create a Virtual Machine with Azure Resource Manager (ARM) Templates and use Chocolatey to install software](http://www.frankysnotes.com/2018/04/dont-install-your-software-yourself.html).
-+ [Tutorial - Add variables to your ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-add-variables?tabs=azure-powershell).
++ [Add variables to your ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-add-variables?tabs=azure-powershell).
++ [Deploy applications to a Windows virtual machine in Azure with the Custom Script Extension](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-automate-vm-deployment).
