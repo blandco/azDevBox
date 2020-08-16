@@ -6,7 +6,7 @@ $resourceGroupName = "Rg-"+$lowerhostName
 $scriptURL = "https://raw.githubusercontent.com/blandco/azDevBox/master/post-deploy.ps1"
 $templateURL = "https://raw.githubusercontent.com/blandco/azDevBox/master/devbox-ARMTemplate.json"
 $AzureLocation = "centralus"
-$keyVaultName = "azkv004"
+$keyVaultName = "kvDevKeyVault"
 $keyVaultSecret = "azadminpass"
 $vmAdminUser = "azadmin"
 
