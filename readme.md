@@ -14,7 +14,7 @@ Powershell script to deploy and configure a virtual machine using an Azure Resou
 5. Run new-vm.ps1
 6. Once the VM is ready, the script will display the FQDN.
 
-# ![Image showing script output of hostname and script runtime](https://raw.githubusercontent.com/blandco/azDevBox/master/script-output.png)
+# ![Image showing script output of hostname and script runtime](https://raw.githubusercontent.com/blandco/azDevBox/master/script-output-image.png)
 
 ### References
 + [Create a Virtual Machine with Azure Resource Manager (ARM) Templates and use Chocolatey to install software](http://www.frankysnotes.com/2018/04/dont-install-your-software-yourself.html).
