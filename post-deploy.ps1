@@ -4,3 +4,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco feature enable -n allowGlobalConfirmation
 # // Do work
 choco install googlechrome
+choco install tor-browser
