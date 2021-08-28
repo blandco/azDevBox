@@ -7,7 +7,7 @@ Powershell script to deploy and configure a virtual machine using an Azure Resou
 2. Existing Azure KeyVault and secret.
 
 ## How to Use:
-1. [Install the PowerShell Az module](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.5.0).
+1. [Install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli).
 2. [Create a new KeyVault and secret](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal).
 3. Edit new-vm.ps1 and update $keyVaultName and $keyVaultSecret with your new KeyVault and secret name. 
 4. Edit post-deploy.ps1 to change how Chocolately configures your VM. (*Or use the script to do anything else*)
